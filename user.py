@@ -28,5 +28,4 @@ class User:
             return False
 
         else:
-            print("          Hoşgeldin, ", self.username)
             return True

@@ -4,6 +4,7 @@ from user import User
 from weapons.rifle import Rifles
 from weapons.smg import SMGs
 
+
 os.system('mode con: cols=86 lines=40')
 os.system("color a")
 
@@ -26,6 +27,7 @@ def main():
             print("==                               GÜNEY SİLAHCILIK                                   ==")
             print("==                                   Envanter                                       ==")
             print("======================================================================================\n\n")
+            print("         Hoşgeldin, "+ user.username + "\n")
             print("         Lütfen görmek istediğiniz silahı seçiniz: \n")
             print("         1-) Kar98k")
             print("         2-) Uzi")
